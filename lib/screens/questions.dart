@@ -30,7 +30,7 @@ class _QuestionsState extends State<Questions>{
     return Container(
       height: double.infinity,
       width: double.infinity,
-      padding: EdgeInsets.symmetric(horizontal: 5),
+      padding: EdgeInsets.symmetric(horizontal: 35, vertical: 50),
       color: Colors.purple,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,

@@ -60,7 +60,7 @@ class ResultsScreen extends StatelessWidget{
             SizedBox(height: 30),
             TextButton.icon(
                 onPressed: restartQuiz,
-                icon: Icon(Icons.refresh, size: 20,color: Colors.lightBlue,),
+                icon: Icon(Icons.refresh, size: 20,color: Colors.white,),
                 label: Text('Restart Quiz',
                   style: TextStyle(color: Colors.white, fontSize: 16),
                 ))

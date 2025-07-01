@@ -35,7 +35,7 @@ class _QuizState extends State<Quiz>{
   void restartQuiz(){
     setState(() {
       selectedAnswers = [];
-      activeScreen = 'Start-Screen';
+      activeScreen = 'Questions-Screen';
     });
   }
 
